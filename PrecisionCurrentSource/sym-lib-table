@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "PrecisionCurrentSource")(type "KiCad")(uri "${KIPRJMOD}/lib/PrecisionCurrentSource.kicad_sym")(options "")(descr ""))
+)

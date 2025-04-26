@@ -1,0 +1,24 @@
+(footprint "MountingHole" (version 20210925) (generator pcbnew) (layer "F.Cu")
+  (tedit 6162A34C)
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.9) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8758b213-bead-436a-bfd8-3a7d5ace67a2)
+  )
+  (fp_text value "MountingHole_2.2mm_M2_DIN965_Pad" (at 0 2.9) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dbc88e76-bf88-4655-963a-a857f587dd15)
+  )
+  (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 107c6927-755f-44ca-b48e-44d0adc7a744)
+  )
+  (fp_circle (center 0 0) (end 1.9 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 452b2ffc-6ac7-4d76-a166-2b80fc2b4169))
+  (fp_circle (center 0 0) (end 3.2 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp a7e559e2-a499-4d39-8904-cc0b4a532580))
+  (pad "1" thru_hole circle locked (at 0 0) (size 7 7) (drill 2.5) (layers *.Cu *.Mask) (tstamp 4ef4cabf-4356-4d45-a2f1-84f419d3d4d5))
+  (model "${KIPRJMOD}/lib/PrecisionCurrentSource.pretty/3D Models/BananaPlug.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>X:\TA\Precision Current Source\PrecisionCurrentSource\PrecisionCurrentSource.kicad_sch</source>
+    <date>19/04/2022 01:20:49</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Precision Current Source</title>
+        <company>Erstellt von: Tobias Netzer</company>
+        <rev>A</rev>
+        <date>2021-11-10</date>
+        <source>PrecisionCurrentSource.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Batteriespannungsüberwachung mit LED Anzeige"/>
+        <comment number="3" value="Zwei konfigurierbare Konstantströme"/>
+        <comment number="4" value="- Präzisions Konstantstromquelle -"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>2x CR2032</value>
+      <footprint>PrecisionCurrentSource:Keystone_1062</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/215/1062-745917.pdf</datasheet>
+      <fields>
+        <field name="Beschreibung">Coin Cell Battery Holders 2X20MM SMT COIN HOLDER</field>
+        <field name="Hersteller">Keystone Electronics</field>
+        <field name="Hersteller-Nr.">1062</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">534-1062</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Battery_Holder_1062" description="Coin Cell Battery Holders 2X20MM SMT COIN HOLDER"/>
+      <property name="Beschreibung" value="Coin Cell Battery Holders 2X20MM SMT COIN HOLDER"/>
+      <property name="Hersteller" value="Keystone Electronics"/>
+      <property name="Hersteller-Nr." value="1062"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="534-1062"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5db7977b-f2e7-4f25-b479-1b3eb01ed857</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">10µF-20%-0603-X5R-10V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C106M8PACTU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C106M8PACTU</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="10µF-20%-0603-X5R-10V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C106M8PACTU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C106M8PACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed1a7845-1561-44b0-97f1-a6dad893ea26</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">100nF-20%-0402-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C104M3RACTU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C104M3R</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="100nF-20%-0402-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C104M3RACTU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C104M3R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad4b3c9a-b731-4ae5-99fe-a6285d3b7560</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">100nF-20%-0402-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C104M3RACTU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C104M3R</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="100nF-20%-0402-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C104M3RACTU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C104M3R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21ef99b1-657c-4ef3-9052-15e3009aa096</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">10nF-10%-0402-X7R-50V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C103K5REC7411</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C103K5RECLR</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="10nF-10%-0402-X7R-50V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C103K5REC7411"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C103K5RECLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e50515f7-2c46-46d5-b548-e42ceae9eec2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">100nF-20%-0402-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C104M3RACTU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C104M3R</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="100nF-20%-0402-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C104M3RACTU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C104M3R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9996fda7-736f-44bf-b633-17a5fb594c53</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">10nF-10%-0402-X7R-50V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C103K5REC7411</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C103K5RECLR</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="10nF-10%-0402-X7R-50V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C103K5REC7411"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C103K5RECLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92b702c7-3d5e-4951-9f1a-118e18ff0fd7</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">1µF-10%-0603-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C105K3RACTU	</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C105K3R	</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="1µF-10%-0603-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C105K3RACTU&#x9;"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C105K3R&#x9;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3addc9a1-a0f8-40e4-b4d0-100d90d5a4a8</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">10nF-10%-0402-X7R-50V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C103K5REC7411</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C103K5RECLR</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="10nF-10%-0402-X7R-50V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C103K5REC7411"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C103K5RECLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f1e94cc-0cff-437e-8175-49421c89096b</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">1µF-10%-0603-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C105K3RACTU	</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C105K3R	</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="1µF-10%-0603-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C105K3RACTU&#x9;"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C105K3R&#x9;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>585ff026-1a86-4497-9865-6f9d500d536b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">1µF-10%-0603-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C105K3RACTU	</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C105K3R	</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="1µF-10%-0603-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C105K3RACTU&#x9;"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C105K3R&#x9;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8076585c-d1bb-474f-a55c-0e27211c0087</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">10nF-10%-0402-X7R-50V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0402C103K5REC7411</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0402C103K5RECLR</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0402" description=""/>
+      <property name="Beschreibung" value="10nF-10%-0402-X7R-50V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0402C103K5REC7411"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0402C103K5RECLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a34f4342-e008-442c-8512-05b088fb7f3f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">1µF-10%-0603-X7R-25V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C105K3RACTU	</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C105K3R	</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="1µF-10%-0603-X7R-25V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C105K3RACTU&#x9;"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C105K3R&#x9;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>879bf816-e463-43e9-b3d1-5eab0b623a82</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10µF</value>
+      <footprint>PrecisionCurrentSource:Capacitor_0603</footprint>
+      <fields>
+        <field name="Beschreibung">10µF-20%-0603-X5R-10V</field>
+        <field name="Hersteller">Kemet</field>
+        <field name="Hersteller-Nr.">C0603C106M8PACTU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">80-C0603C106M8PACTU</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Capacitor_0603" description=""/>
+      <property name="Beschreibung" value="10µF-20%-0603-X5R-10V"/>
+      <property name="Hersteller" value="Kemet"/>
+      <property name="Hersteller-Nr." value="C0603C106M8PACTU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="80-C0603C106M8PACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d50af5-1b8c-43dc-a906-64d7bb0c6f75</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>PrecisionCurrentSource:LED_0402</footprint>
+      <fields>
+        <field name="Beschreibung">LED Green 0402</field>
+        <field name="Hersteller">Kingbright</field>
+        <field name="Hersteller-Nr.">APHHS1005ZGC</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">604-APHHS1005ZGC</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="LED_0402" description=""/>
+      <property name="Beschreibung" value="LED Green 0402"/>
+      <property name="Hersteller" value="Kingbright"/>
+      <property name="Hersteller-Nr." value="APHHS1005ZGC"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="604-APHHS1005ZGC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b786c501-6283-493e-a2ae-9e5ebd30d4be</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>PrecisionCurrentSource:MountingHole</footprint>
+      <fields>
+        <field name="Beschreibung"/>
+        <field name="Hersteller"/>
+        <field name="Hersteller-Nr."/>
+        <field name="Lieferant"/>
+        <field name="Lieferant-Nr."/>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="MountingHole" description=""/>
+      <property name="Beschreibung" value="~"/>
+      <property name="Hersteller" value="~"/>
+      <property name="Hersteller-Nr." value="~"/>
+      <property name="Lieferant" value="~"/>
+      <property name="Lieferant-Nr." value="~"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51bfbaf4-74a9-4f1d-80f3-923e8671e82b</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>PrecisionCurrentSource:MountingHole</footprint>
+      <fields>
+        <field name="Beschreibung"/>
+        <field name="Hersteller"/>
+        <field name="Hersteller-Nr."/>
+        <field name="Lieferant"/>
+        <field name="Lieferant-Nr."/>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="MountingHole" description=""/>
+      <property name="Beschreibung" value="~"/>
+      <property name="Hersteller" value="~"/>
+      <property name="Hersteller-Nr." value="~"/>
+      <property name="Lieferant" value="~"/>
+      <property name="Lieferant-Nr." value="~"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb50985-7bcd-4514-9a78-b1a805f0c2bc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>EMI-Shield</value>
+      <footprint>PrecisionCurrentSource:Wuerth_36103205_20x20mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/36103205-1716387.pdf</datasheet>
+      <fields>
+        <field name="Beschreibung">EMI Gaskets, Sheets, Absorbers &amp; Shielding WE-SHC SMD Frame 21x21mm</field>
+        <field name="Hersteller">Würth Elektronik</field>
+        <field name="Hersteller-Nr.">36103205</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">710-36103205</field>
+      </fields>
+      <libsource lib="" part="EMI_Shield_1" description="EMI Gaskets, Sheets, Absorbers &amp; Shielding WE-SHC SMD Frame 21x21mm"/>
+      <property name="Beschreibung" value="EMI Gaskets, Sheets, Absorbers &amp; Shielding WE-SHC SMD Frame 21x21mm"/>
+      <property name="Hersteller" value="Würth Elektronik"/>
+      <property name="Hersteller-Nr." value="36103205"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="710-36103205"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54fdef16-d5f2-4564-93bc-0a77b437bbb6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8k2</value>
+      <footprint>PrecisionCurrentSource:Resistor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">8k2-1%-0402-62.5mW-100ppm</field>
+        <field name="Hersteller">Yageo</field>
+        <field name="Hersteller-Nr.">AC0402FR-138K2L</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">603-AC0402FR-138K2L</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Resistor_0402" description=""/>
+      <property name="Beschreibung" value="8k2-1%-0402-62.5mW-100ppm"/>
+      <property name="Hersteller" value="Yageo"/>
+      <property name="Hersteller-Nr." value="AC0402FR-138K2L"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="603-AC0402FR-138K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be3998e1-5452-4aae-9425-bd8f027f305f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k 0,05%</value>
+      <footprint>PrecisionCurrentSource:Resistor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">1k-0.05%-0402-62.5mW-5ppm</field>
+        <field name="Hersteller">Susumu</field>
+        <field name="Hersteller-Nr.">RG1005V-102-W-T1</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">754-RG1005V-102-WT1</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Resistor_0402" description=""/>
+      <property name="Beschreibung" value="1k-0.05%-0402-62.5mW-5ppm"/>
+      <property name="Hersteller" value="Susumu"/>
+      <property name="Hersteller-Nr." value="RG1005V-102-W-T1"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="754-RG1005V-102-WT1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4927abf-0dae-45fa-9147-239dba795c71</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1M 0,1%</value>
+      <footprint>PrecisionCurrentSource:Resistor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">1M-0.1%-0402-100mW-25ppm</field>
+        <field name="Hersteller">Vishay</field>
+        <field name="Hersteller-Nr.">MCS0402MD1004BE000</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">594-MCS0402MD1004BE0</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Resistor_0402" description=""/>
+      <property name="Beschreibung" value="1M-0.1%-0402-100mW-25ppm"/>
+      <property name="Hersteller" value="Vishay"/>
+      <property name="Hersteller-Nr." value="MCS0402MD1004BE000"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="594-MCS0402MD1004BE0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d86dcf97-f14c-4613-8680-7e9d1429bcc6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k 0,05%</value>
+      <footprint>PrecisionCurrentSource:Resistor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">1k-0.05%-0402-62.5mW-5ppm</field>
+        <field name="Hersteller">Susumu</field>
+        <field name="Hersteller-Nr.">RG1005V-102-W-T1</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">754-RG1005V-102-WT1</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Resistor_0402" description=""/>
+      <property name="Beschreibung" value="1k-0.05%-0402-62.5mW-5ppm"/>
+      <property name="Hersteller" value="Susumu"/>
+      <property name="Hersteller-Nr." value="RG1005V-102-W-T1"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="754-RG1005V-102-WT1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94fc901d-cbb6-48cf-a9a5-19dca40a2ac9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k 0,05%</value>
+      <footprint>PrecisionCurrentSource:Resistor_0402</footprint>
+      <fields>
+        <field name="Beschreibung">100k-0.05%-0402-62.5mW-10ppm</field>
+        <field name="Hersteller">Vishay</field>
+        <field name="Hersteller-Nr.">TNPU0402100KAYEP00</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">71-TNPU0402100KAYEP0</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="Resistor_0402" description=""/>
+      <property name="Beschreibung" value="100k-0.05%-0402-62.5mW-10ppm"/>
+      <property name="Hersteller" value="Vishay"/>
+      <property name="Hersteller-Nr." value="TNPU0402100KAYEP00"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="71-TNPU0402100KAYEP0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e27f314d-7aea-483b-9dba-578f8a981062</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>600DP3S2M4R</value>
+      <footprint>PrecisionCurrentSource:600DP3S2M4R</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/T620307.pdf</datasheet>
+      <fields>
+        <field name="Beschreibung">Schiebeschalter DPDT Durchkontaktierung</field>
+        <field name="Hersteller">E-Switch</field>
+        <field name="Hersteller-Nr.">600DP3S2M4R</field>
+        <field name="Lieferant">Digikey</field>
+        <field name="Lieferant-Nr.">600DP3S2M4R-ND</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="600DP3S2M4R" description="Schiebeschalter DPDT Durchkontaktierung"/>
+      <property name="Beschreibung" value="Schiebeschalter DPDT Durchkontaktierung"/>
+      <property name="Hersteller" value="E-Switch"/>
+      <property name="Hersteller-Nr." value="600DP3S2M4R"/>
+      <property name="Lieferant" value="Digikey"/>
+      <property name="Lieferant-Nr." value="600DP3S2M4R-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f43935d2-107a-4bd3-84de-c86272010c36 f220bdc6-3dff-4a3b-8bc6-7aa8dd8d07d9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BU4947F</value>
+      <footprint>PrecisionCurrentSource:SOP4</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/348/bu48xxg_e-1874410.pdf</datasheet>
+      <fields>
+        <field name="Beschreibung">Supervisory Circuits IC CMOS VOLT DETECT</field>
+        <field name="Hersteller">ROHM Semiconductor</field>
+        <field name="Hersteller-Nr.">BU4947F-TR</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">755-BU4947F-TR</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="BU4947F" description="Supervisory Circuits IC CMOS VOLT DETECT"/>
+      <property name="Beschreibung" value="Supervisory Circuits IC CMOS VOLT DETECT"/>
+      <property name="Hersteller" value="ROHM Semiconductor"/>
+      <property name="Hersteller-Nr." value="BU4947F-TR"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="755-BU4947F-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14da6b1-0907-4bdc-916d-a7610f5aabe1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LMP7721</value>
+      <footprint>PrecisionCurrentSource:SOIC-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmp7721.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1633781774392&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</datasheet>
+      <fields>
+        <field name="Beschreibung">Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">LMP7721MA/NOPB</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">926-LMP7721MA/NOPB</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="LMP7721" description="Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP"/>
+      <property name="Beschreibung" value="Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP"/>
+      <property name="Hersteller" value="Texas Instruments"/>
+      <property name="Hersteller-Nr." value="LMP7721MA/NOPB"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="926-LMP7721MA/NOPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce2f9484-8b24-446d-af5c-8a5b70549d11</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LMP7721</value>
+      <footprint>PrecisionCurrentSource:SOIC-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmp7721.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1633781774392&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</datasheet>
+      <fields>
+        <field name="Beschreibung">Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">LMP7721MA/NOPB</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">926-LMP7721MA/NOPB</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="LMP7721" description="Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP"/>
+      <property name="Beschreibung" value="Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP"/>
+      <property name="Hersteller" value="Texas Instruments"/>
+      <property name="Hersteller-Nr." value="LMP7721MA/NOPB"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="926-LMP7721MA/NOPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46def7fe-81ec-43e3-9b32-723b77ee2ecf</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>REF200AU</value>
+      <footprint>PrecisionCurrentSource:SOIC-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ref200.pdf?ts=1633768165003&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF200</datasheet>
+      <fields>
+        <field name="Beschreibung">Strom- und Leistungswächter und -regler Dual Current Source Current Sink</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">REF200AU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-REF200AU</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="REF200AU" description="Strom- und Leistungswächter und -regler Dual Current Source Current Sink"/>
+      <property name="Beschreibung" value="Strom- und Leistungswächter und -regler Dual Current Source Current Sink"/>
+      <property name="Hersteller" value="Texas Instruments"/>
+      <property name="Hersteller-Nr." value="REF200AU"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="595-REF200AU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec32a8f6-9ef8-4614-82d2-197f98487220 592694ff-2e15-4f55-9262-6abc946a5391 1ad70f6f-0a97-449f-941e-04676b4fdabc</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS71745</value>
+      <footprint>PrecisionCurrentSource:SC70-5</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps717-q1</datasheet>
+      <fields>
+        <field name="Beschreibung">LDO Voltage Regulators AC SGL Out LDO 150mA Fixed High PSRR</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">TPS71745QDCKRQ1</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-TPS71745QDCKRQ1</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="TPS71745" description="LDO Voltage Regulators AC SGL Out LDO 150mA Fixed High PSRR"/>
+      <property name="Beschreibung" value="LDO Voltage Regulators AC SGL Out LDO 150mA Fixed High PSRR"/>
+      <property name="Hersteller" value="Texas Instruments"/>
+      <property name="Hersteller-Nr." value="TPS71745QDCKRQ1"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="595-TPS71745QDCKRQ1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca84ed72-43b7-45aa-b401-60da5b973d8f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TPS71715</value>
+      <footprint>PrecisionCurrentSource:SC70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps717.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1636293424450&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</datasheet>
+      <fields>
+        <field name="Beschreibung">LDO Spannungs-Regulator LN High-BW PSRR 150mA</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">TPS71715DCKT</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-TPS71715DCKT</field>
+      </fields>
+      <libsource lib="PrecisionCurrentSource" part="TPS71715" description="LDO Spannungs-Regulator LN High-BW PSRR 150mA"/>
+      <property name="Beschreibung" value="LDO Spannungs-Regulator LN High-BW PSRR 150mA"/>
+      <property name="Hersteller" value="Texas Instruments"/>
+      <property name="Hersteller-Nr." value="TPS71715DCKT"/>
+      <property name="Lieferant" value="Mouser"/>
+      <property name="Lieferant-Nr." value="595-TPS71715DCKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PrecisionCurrentSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57356575-ac83-464b-adf5-86f84915f576</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="EMI_Shield_1">
+      <description>EMI Gaskets, Sheets, Absorbers &amp; Shielding WE-SHC SMD Frame 21x21mm</description>
+      <docs>https://www.mouser.de/datasheet/2/445/36103205-1716387.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EMI_Shield_1</field>
+        <field name="Footprint">PrecisionCurrentSource:Wuerth_36103205_20x20mm</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/445/36103205-1716387.pdf</field>
+        <field name="Beschreibung">EMI Gaskets, Sheets, Absorbers &amp; Shielding WE-SHC SMD Frame 21x21mm</field>
+        <field name="Hersteller">Würth Elektronik</field>
+        <field name="Hersteller-Nr.">36103205</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">710-36103205</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="600DP3S2M4R">
+      <description>Schiebeschalter DPDT Durchkontaktierung</description>
+      <docs>http://spec_sheets.e-switch.com/specs/T620307.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">600DP3S2M4R</field>
+        <field name="Footprint">PrecisionCurrentSource:600DP3S2M4R</field>
+        <field name="Datasheet">http://spec_sheets.e-switch.com/specs/T620307.pdf</field>
+        <field name="Beschreibung">Schiebeschalter DPDT Durchkontaktierung</field>
+        <field name="Hersteller">E-Switch</field>
+        <field name="Hersteller-Nr.">600DP3S2M4R</field>
+        <field name="Lieferant">Digikey</field>
+        <field name="Lieferant-Nr.">600DP3S2M4R-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="BU4947F">
+      <description>Supervisory Circuits IC CMOS VOLT DETECT</description>
+      <docs>https://www.mouser.de/datasheet/2/348/bu48xxg_e-1874410.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BU4947F</field>
+        <field name="Footprint">PrecisionCurrentSource:SOP4</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/348/bu48xxg_e-1874410.pdf</field>
+        <field name="Beschreibung">Supervisory Circuits IC CMOS VOLT DETECT</field>
+        <field name="Hersteller">ROHM Semiconductor</field>
+        <field name="Hersteller-Nr.">BU4947F-TR</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">755-BU4947F-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="Battery_Holder_1062">
+      <description>Coin Cell Battery Holders 2X20MM SMT COIN HOLDER</description>
+      <docs>https://eu.mouser.com/datasheet/2/215/1062-745917.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Holder_1062</field>
+        <field name="Footprint">PrecisionCurrentSource:Keystone_1062</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/215/1062-745917.pdf</field>
+        <field name="Beschreibung">Coin Cell Battery Holders 2X20MM SMT COIN HOLDER</field>
+        <field name="Hersteller">Keystone Electronics</field>
+        <field name="Hersteller-Nr.">1062</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">534-1062</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="Capacitor_0402">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor_0402</field>
+        <field name="Footprint">PrecisionCurrentSource:Capacitor_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Beschreibung">~</field>
+        <field name="Hersteller">~</field>
+        <field name="Hersteller-Nr.">~</field>
+        <field name="Lieferant">~</field>
+        <field name="Lieferant-Nr.">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="Capacitor_0603">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor_0603</field>
+        <field name="Footprint">PrecisionCurrentSource:Capacitor_0603</field>
+        <field name="Datasheet">~</field>
+        <field name="Beschreibung">~</field>
+        <field name="Hersteller">~</field>
+        <field name="Hersteller-Nr.">~</field>
+        <field name="Lieferant">~</field>
+        <field name="Lieferant-Nr.">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="LED_0402">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0402</field>
+        <field name="Footprint">PrecisionCurrentSource:LED_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Beschreibung">~</field>
+        <field name="Hersteller">~</field>
+        <field name="Hersteller-Nr.">~</field>
+        <field name="Lieferant">~</field>
+        <field name="Lieferant-Nr.">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="LMP7721">
+      <description>Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmp7721.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1633781774392&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP7721</field>
+        <field name="Footprint">PrecisionCurrentSource:SOIC-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmp7721.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1633781774392&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</field>
+        <field name="Beschreibung">Präzisionsverstärker 3 FEMTOAMPERE INPUT BIAS CURR PREC AMP</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">LMP7721MA/NOPB</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">926-LMP7721MA/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="V-" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="MountingHole">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint">PrecisionCurrentSource:MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="REF200AU">
+      <description>Strom- und Leistungswächter und -regler Dual Current Source Current Sink</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ref200.pdf?ts=1633768165003&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF200</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REF200AU</field>
+        <field name="Footprint">PrecisionCurrentSource:SOIC-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ref200.pdf?ts=1633768165003&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF200</field>
+        <field name="Beschreibung">Strom- und Leistungswächter und -regler Dual Current Source Current Sink</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">REF200AU</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-REF200AU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="Resistor_0402">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor_0402</field>
+        <field name="Footprint">PrecisionCurrentSource:Resistor_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Beschreibung">~</field>
+        <field name="Hersteller">~</field>
+        <field name="Hersteller-Nr.">~</field>
+        <field name="Lieferant">~</field>
+        <field name="Lieferant-Nr.">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="TPS71715">
+      <description>LDO Spannungs-Regulator LN High-BW PSRR 150mA</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps717.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1636293424450&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS71715</field>
+        <field name="Footprint">PrecisionCurrentSource:SC70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps717.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1636293424450&amp;ref_url=https%253A%252F%252Fwww.mouser.de%252F</field>
+        <field name="Beschreibung">LDO Spannungs-Regulator LN High-BW PSRR 150mA</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">TPS71715DCKT</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-TPS71715DCKT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NR" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrecisionCurrentSource" part="TPS71745">
+      <description>LDO Voltage Regulators AC SGL Out LDO 150mA Fixed High PSRR</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps717-q1</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS71745</field>
+        <field name="Footprint">PrecisionCurrentSource:SC70-5</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps717-q1</field>
+        <field name="Beschreibung">LDO Voltage Regulators AC SGL Out LDO 150mA Fixed High PSRR</field>
+        <field name="Hersteller">Texas Instruments</field>
+        <field name="Hersteller-Nr.">TPS71745QDCKRQ1</field>
+        <field name="Lieferant">Mouser</field>
+        <field name="Lieferant-Nr.">595-TPS71745QDCKRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NR" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PrecisionCurrentSource">
+      <uri>X:\TA\Precision Current Source\PrecisionCurrentSource/lib/PrecisionCurrentSource.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V5">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+4V5">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="7" pintype="passive"/>
+      <node ref="U4" pin="8" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/PWR_EN">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Shield" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="NR" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="NR" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="S" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U4-Pad6)_1">
+      <node ref="U4" pin="6" pinfunction="S" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U4-Pad6)_2">
+      <node ref="U4" pin="6" pinfunction="S" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
