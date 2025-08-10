@@ -13,7 +13,11 @@ Documentation
 
 ## Limitations of the Design
 
-Because CR2032 coin cells have a high internal resistance, they can’t deliver very high currents. This limits how much current the current source can provide. The op-amp also plays a limiting role here, since it can’t handle sinking large currents. As a result, this current source is only suitable for currents up to around 10 mA. Additionally, since the voltage swing across the load is limited to 1.4V, the maximum load at, for example, 1mA cannot be higher than 1.4kΩ. This limits the usable range of the current source further.
+Due to the high internal resistance of CR2032 coin cells, they are unable to deliver currents higher than approximately 15mA. This inherently limits the maximum output of the constant current source. However, it's not the only limiting factor. The op-amp used in the circuit can only sink up to 15mA, making the current source only suitable for output currents up to around 10mA.  
+
+In addition, the voltage swing across the load is limited to 1.4V. For example, at a current of 1mA, the maximum  load is limited to 1.4kΩ. This further restricts the usable range of the current source.
+
+These limitations should be taken into account when using this current source!
 
 ## First Tests
 
